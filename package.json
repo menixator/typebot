@@ -1,7 +1,12 @@
 {
-  "dependencies": {
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
     "@types/node": "^10.5.5",
     "ts-node": "^7.0.0",
+    "tsconfig-paths": "^3.5.0",
     "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1"
   }
 }
