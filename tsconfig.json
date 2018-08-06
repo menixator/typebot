@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "lib": ["es2015", "esnext.asynciterable"],
+    "outDir": "./build/",
+    "rootDir": "./src",
+    "noUnusedLocals": false,
+    "paths": {
+    },
+    "moduleResolution": "node",
+    "baseUrl": "./src/",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strict": false,
+    "strictPropertyInitialization": false,
+    "strictNullChecks": false
+  },
+  "include": ["src/**/*.ts"]
+}
